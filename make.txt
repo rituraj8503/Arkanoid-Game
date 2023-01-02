@@ -1,0 +1,1 @@
+g++ -std=c++17 main.cpp game.cpp background.cpp ball.cpp paddle.cpp interactions.cpp brick.cpp entity.cpp -o main -I include -L lib -l sfml-system -l sfml-window -l sfml-graphics -l sfml-audio -l sfml-network -Wl,-rpath ./lib 
